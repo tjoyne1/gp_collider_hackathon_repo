@@ -2,11 +2,14 @@
 target_group_id = 11676
 post_curl_req = "'https://www.populationexplorer.com/api/geodata/geopolygons/single/' -H 'Accept: application/json, text/plain, */*' -H 'Referer: https://app.populationexplorer.com/index.html' -H 'Origin: https://app.populationexplorer.com' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36' -H 'Authorization: Token 8fc55696922a843bfdd5d7bca4b4af17daa502b6' -H 'Content-Type: application/json;charset=UTF-8' --compressed "
 
+# estimate how the delta for longitude for 100km based on the latitude
 def km_per_degree_lat(lat)
     (90.0 - lat) * (111.0 / 90.0)
 end
 
-File.readlines('points.csv').each do |line| 
+# for each city, plant a diamond-shaped region on PE
+# unfortunately we're limited to 100 regions
+File.readlines('city_points.csv').each do |line| 
     geo_id, fname, long_str, lat_str = line.split(',')
     long = long_str.to_f
     lat = lat_str.to_f
