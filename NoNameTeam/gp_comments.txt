@@ -1,0 +1,15 @@
+No name team:
+-Issues with data - loading
+-Couldn't get all of the data until the last hour, too late to investigate thoroughly :(
+-Data challenges left time to develop a framework to define vulnerable population and index
+-Reviewed public health data to establish that minimum temperature also contributes heavily to heat impact
+-Duration is important metric -> exponential impact
+-Developed framework using daily duration but, couldn't implement because the forecast data was 5 day
+-Primary factors for index: Socioeconomic, physiological, health service access, medical conditions
+-Envisioned App: Map with location and sliders for each index factor
+-Retrospective data analysis was on the default values - in the end identified 670 days that would have exceeded thresholds
+-No time to incorporate Forecast :(
+
+GP Questions:
+-How would you develop default values for the sliders?
+-How could you validate the 670 days the index was exceeded?  Where these real heatwaves?

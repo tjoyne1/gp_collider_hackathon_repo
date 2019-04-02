@@ -1,0 +1,14 @@
+Team ExTRAS:
+-Developed a Glitch app - easy, fast front end dev
+-Developed maps and interactive UI using Leaflet and MapBox
+-Looked beyond the provided data, multiple sources: postgres, population explorer, R
+-Established criteria for vulnerable population as % under 10 and over 65
+-Established criteria for extreme temperature as ?
+-Popups display extreme heat with probability of hot/cold events in each location
+-Uses 25% and 75% percentile for summer and winter
+-Consideration of seasonality by establishing thresholds to separate summer and winter and extreme in each season!
+
+GP Questions:
+-Are the probabilities provided based on the forecast or current conditions (or both)?
+-Can you have extreme "heat" or "cold" in the winter and summer, respectively?
+

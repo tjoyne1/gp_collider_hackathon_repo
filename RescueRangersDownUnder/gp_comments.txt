@@ -1,0 +1,14 @@
+Rescue Rangers Down Under:
+-Issues with data - loading
+-Limited scope to Australia to focus on problem statement
+-Established 90th, 95th, 98th percentiles for 10 cities in Aus.
+-Forecast from March 17 -> end of 2019
+-NASA SEDAC: vulnerable population <14 and >65
+-Calculated number of times of each city exceeded each percentile in the forecast
+-SE Australia exceeds the threshold more frequently
+-Assessed regions with population density of vulnerable groups
+-No intuitive insight: Newcastle expected to experience extreme heat - who knew!?
+
+GP Questions:
+-How would an agency incorporate this index into their decision making?
+-Do you believe the forecast data?  Why?

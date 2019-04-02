@@ -1,0 +1,12 @@
+Team NOLA:
+-Issues with data - both loading, downloading
+-Developed a mapping application using the ArcGIS online platform
+-Used 90th percentile hot and cold events based  AvgRel 3 and 4 indices  - double index for the win!
+-Counted number of days in area over the past 4 years
+-4 consecutive days in a row over 90%, 2 consecutive days over 95%
+-Wow - the world has chicken pox!
+-Used the indexes over the entire historical data series and full population data set!
+
+GP Questions:
+- How do the two indices compare (numerically), what useful insights might you derive from the differences?
+- How do envision an aid agency or municipality to use this data to improve their understanding of heat stress?
